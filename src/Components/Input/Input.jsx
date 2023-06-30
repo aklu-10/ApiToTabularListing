@@ -14,8 +14,6 @@ const Input = ({type, placeHolder, setList}) => {
     getResource(baseURL, endpoint)
     .then(res=>setList( Array.isArray(res) ? res : res[Object.keys(res)[0]]))
     .catch(console.log)
-
-    
   } 
 
   function debounce(func, delay)

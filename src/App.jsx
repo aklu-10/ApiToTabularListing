@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { DEFAULT_URL, DEFAULT_ENDPOINT } from "./constants";
 import { getResource } from "./api";
+import TabularListing from "./Components/TabularListing/TabularListing"
 import Input from "./Components/Input/Input"
 import Button from "./Components/Button/Button"
-import TabularListing from "./Components/TabularListing/TabularListing"
 
 import './App.css';
 
