@@ -1,0 +1,14 @@
+input
+{
+    width:90%;
+    border: 1px solid lightgray;
+    padding:2px 5px;
+    font-size: .7rem;
+    color:gray;
+}
+
+input:focus
+{
+    outline:none;
+    box-shadow: 0 1px 1px gray;
+}

@@ -1,0 +1,29 @@
+.formContainer
+{
+    width:93vw;
+    height: max-content;
+    position: absolute;
+    top:9%;
+    left:30px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.formContainer input
+{
+    width:60%;
+    height: 25px;
+    font-size:12px;
+    margin: auto;
+}
+
+.formContainer button
+{
+    font-size: 12px;
+    padding-bottom: 25px;
+    margin-left:45%;
+    width: max-content;
+}
+

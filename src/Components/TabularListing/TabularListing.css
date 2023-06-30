@@ -1,0 +1,37 @@
+.tableContainer
+{
+    width: 93%;
+    height: 88vh;
+    overflow: auto;
+    font-size:.7rem;
+}
+
+
+.tableContainer table th
+{
+    width:150px;
+    text-align: center;
+}
+
+.tableContainer table td
+{
+    min-width: 150px;
+    max-width: max-content;
+    text-align: center;
+}
+
+.tableContainer table td button
+{
+    width: max-content;
+}
+
+ 
+.tableContainer table tr
+{
+    display: flex;
+}
+
+.tableContainer table table th
+{
+    width: 100%;
+}
